@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+    <fieldset class="get">
+<legend>
+    GET 
+</legend>
+<form action="/fillForm" method="GET">
+<!-- <form action="/user" method="POST"> -->
+
+    <label for="name"> name</label>
+    
+    <input type="text" id="name" name="firstname"  placeholder="name">
+<br>
+<label for="email">Email</label>
+<input type="email" name="email" id="email" placeholder="email">
+<br>
+<label for="paass">Password</label>
+<input type="password" name="pass" id="paass" placeholder="password">
+<button type="submit">done</button>
+</form>
+
+
+    </fieldset>
+    <fieldset>
+        <legend>
+          Post
+        </legend>
+        <form action="/fillForm" method="post">
+        <!-- <form action="/user" method="POST"> -->
+        
+            <label for="name"> name</label>
+            
+            <input type="text" id="name" name="firstname"  placeholder="name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="email">
+        <br>
+        <label for="paass">Password</label>
+        <input type="password" name="pass" id="paass" placeholder="password">
+        <button type="submit">done</button>
+        </form>
+        
+        
+            </fieldset>
+</body>
+</html>
