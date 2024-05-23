@@ -1,7 +1,7 @@
 
 const express = require('express');
 const app= express();
-const Port=3000;
+const Port=2000;
  app.use(express.static('public')) //iska use css ko enable krne ke liye use kiya ja rha hai 
 
  app.use(express.json()) // iski help se hum data bhej sakte hai json format me  THUNDERCLIENT SE yh phir POSTMAN Se
