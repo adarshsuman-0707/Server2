@@ -68,9 +68,10 @@ app.post('/comment',(req,res)=>{
     res.redirect('/blog')
 })
 
-app.get('/blog/delete/:id',(req,res)=>{
+app.delete('/blog/:id',(req,res)=>{
    let {id}=req.params;
 comments=comments.filter((data)=>data.id!=id)
-   res.render('cruds',{comments})
+//    res.render('cruds',{comments})
+res.redirect('/blog')
 
 })

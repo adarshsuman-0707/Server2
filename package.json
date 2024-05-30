@@ -5,7 +5,7 @@
   "main": "final.js",
   "scripts": {
     "dev": "npm start ./crud.js",
-    "start": "nodemon start ./crud.js",
+    "start": "nodemon start ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

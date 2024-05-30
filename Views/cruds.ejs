@@ -63,10 +63,11 @@
 </div></div>
 <div class="double"><div class="names">Username : <%= i.username%></div>
 <div class="comment">Comment : <%= i.comment%></div><br>
-<div> <a href="/blog/delete/<%=i.id%>">
-    <button class="ui-btn">Delete</button>
-
-    </a></div>
+<div> 
+  <form action="/blog/<%=i.id%>?_method=Delete" method="post">
+    <button class="ui-btn" type="submit">Delete</button>
+</form>
+   </div>
 </div> </div>
 <%}%>
 </div>
