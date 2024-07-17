@@ -32,7 +32,7 @@ let comments = [
 app.listen(4000,()=>{
     console.log("running");
 })
-app.get('/blog',(req,res)=>{
+app.get('server2-16ld.onrender.com/blog',(req,res)=>{
     res.render('cruds',{comments})
 })
 
